@@ -1,0 +1,61 @@
+
+
+
+.body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+        background-size: 400% 400%;
+        animation: gradient-anim 15s ease infinite;
+        height: 100%;
+      }
+      
+      @keyframes gradient-anim {
+        0% {
+          background-position: 0% 50%;
+        }
+      
+        50% {
+          background-position: 100% 50%;
+        }
+      
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+.lead{
+  color:#850F8D;
+  font-weight: bold;
+}      
+      
+
+.Way{
+    width: 100px;
+    margin-top: 20px;
+    float:right;
+    border-radius: 50%;
+
+    }
+.feature-icon{
+  width: 4rem;
+  height: 4rem;
+  border-radius: .075rem;
+}
+.nice{
+  background-color: aqua;
+}
+.my-4{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+
+.list-unstyled>d-fex{
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.dl,ol,ul{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
